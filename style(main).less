@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .initial-block-welcome-sub-title {
+    .sub-title {
       margin-top: 25%;
       color: @colorInitialEl;
       font-size: 25px;
@@ -41,6 +41,111 @@
       }
     }
   }
+}
+.sub-title {
+  color: black;
+  font-size: 25px;
+  font-family: "Dancing Script";
+}
+h2 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  text-align: justify;
+  letter-spacing: 3px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    text-align: center;
+    color: black;
+    position: relative;
+    &:hover {
+      padding: 5px;
+    }
+    .proposal-img {
+      width: 200px;
+    }
+  }
+  .title {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+  }
+  .dsc-block_cart-description {
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    text-align: center;
+  }
+}
+.proposal-block {
+  background-color: #fff0e9;
+}
+.proposal-table {
+  background-color: white;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  width: 100px;
+  height: 100px;
+  justify-content: space-evenly;
+}
+.proposal-cart-title {
+  font-family: "Open Sans Condensed";
+  font-size: 20px;
+}
+.proposal-desc {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 15px;
+}
+.cart > &:nth-child(n) {
+  margin: 10px;
+}
+.statistic-block {
+  background-image: url("image/ststisticBackground.jpg");
+  background-size: 100%;
+}
+.shop-block {
+  .filter-ways {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .filter-way {
+      margin: 10px;
+      color: black;
+      font-family: "Open Sans Condensed";
+    }
+  }
+}
+.shop-block .row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  [class*="col-"] {
+    margin: 0;
+  }
+  .product-table {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 5px;
+    .product-cart-title {
+      font-family: "Open Sans Condensed";
+      font-size: 20px;
+    }
+    .product-desc {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+}
+.product-img {
+  width: 100%;
 }
 @media (min-width: 768px) {
 }
