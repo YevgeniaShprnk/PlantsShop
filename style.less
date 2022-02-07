@@ -1,0 +1,45 @@
+/*general style*/
+
+[class*="col-"] {
+  margin: auto 5px;
+}
+
+.container {
+  width: 100%;
+}
+.row {
+  display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.col-xs-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.col-xs-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+.col-xs-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.col-xs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+/*tablet*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/*laptop*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+/*only mobile*/
+@media (max-width: 767px) {
+}

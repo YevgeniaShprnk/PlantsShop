@@ -1,0 +1,12 @@
+.novisibility {
+  visibility: hidden;
+  height: 0;
+}
+.menuElementsParametrs {
+  height: 30px;
+  width: 30px;
+}
+.buttonHeader {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

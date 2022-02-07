@@ -1,0 +1,109 @@
+.novisibility,
+.header-pages .box-search .search-icon .form-search,
+.header-pages .box-search .search-icon:hover,
+.header-pages .navigation:hover,
+.header-pages .navigation .nav-menu .menu {
+  visibility: hidden;
+  height: 0;
+}
+.menuElementsParametrs,
+.header-pages .box-search .search-icon,
+.header-pages .nav-menu-mobile,
+.header-pages .box-basket button {
+  height: 30px;
+  width: 30px;
+}
+.buttonHeader,
+.header-pages .box-basket button {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header-pages .container {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.575);
+}
+.header-pages .box-search {
+  margin: 0 25%;
+}
+.header-pages .box-search .search-icon {
+  background: transparent;
+  background-image: url("icon/search.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.header-pages .box-search .search-icon .form-search {
+  position: absolute;
+  top: -15px;
+  left: -500%;
+  z-index: 10;
+}
+.header-pages .box-search .search-icon:hover .form-search {
+  visibility: visible;
+  height: 40px;
+  position: absolute;
+  border: 1px solid black;
+}
+.header-pages .box-search .search-icon:hover .form-search .input-search {
+  height: 100%;
+  font-size: 25px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.header-pages .box-search .search-icon:hover .form-search .input-search::placeholder {
+  font-size: 25px;
+  color: black;
+}
+.header-pages .navigation:hover {
+  transition: 0.1s ease-in-out;
+  background-color: transparent;
+}
+.header-pages .navigation:hover .menu {
+  visibility: visible;
+}
+.header-pages .navigation .nav-menu {
+  position: relative;
+}
+.header-pages .navigation .nav-menu .menu {
+  position: absolute;
+  left: -36px;
+  top: -20px;
+}
+.header-pages .navigation .nav-menu .menu li {
+  width: 100px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.header-pages .navigation .nav-menu .menu li:hover a {
+  background-color: rgba(94, 158, 126, 0.281);
+  color: black;
+}
+.header-pages .navigation .nav-menu .menu li a {
+  font-family: "Dancing Script";
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  color: black;
+}
+.header-pages .nav-menu-mobile span {
+  height: 1px;
+  width: 100%;
+  background: black;
+  display: block;
+}
+.header-pages .nav-menu-mobile span:nth-child(2) {
+  margin: 11px 0;
+}
+.header-pages .box-basket button {
+  background-image: url("icon/basket.png");
+  background-color: transparent;
+}
+.logo {
+  font-family: Mr De Haviland;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 5px;
+}
+/*tablet*/
+/*laptop*/
+/*only mobile*/

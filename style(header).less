@@ -1,0 +1,117 @@
+@import "style_maps";
+@import "style_mixins";
+@import "style_variables";
+.header-pages {
+  .container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.575);
+  }
+  .box-search {
+    margin: 0 25%;
+    .search-icon {
+      background: transparent;
+      background-image: url("icon/search.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
+      &:extend(.menuElementsParametrs);
+      .form-search {
+        &:extend(.novisibility);
+        position: absolute;
+        top: -15px;
+        left: -500%;
+        z-index: 10;
+      }
+      &:hover {
+        &:extend(.novisibility);
+      }
+      &:hover .form-search {
+        visibility: visible;
+        height: 40px;
+        position: absolute;
+        border: 1px solid black;
+        .input-search {
+          height: 100%;
+          font-size: 25px;
+          width: 200px;
+          background-color: rgba(255, 255, 255, 0.9);
+          &::placeholder {
+            font-size: 25px;
+            color: @colorHeaderElements;
+          }
+        }
+      }
+    }
+  }
+  .navigation {
+    &:hover {
+      &:extend(.novisibility);
+      transition: 0.1s ease-in-out;
+      background-color: transparent;
+    }
+    &:hover .menu {
+      visibility: visible;
+    }
+    .nav-menu {
+      position: relative;
+      .menu {
+        &:extend(.novisibility);
+        position: absolute;
+        left: -36px;
+        top: -20px;
+        li {
+          width: 100px;
+          padding: 5px;
+          background-color: rgba(255, 255, 255, 0.9);
+          &:hover a {
+            background-color: rgba(94, 158, 126, 0.281);
+            color: @colorHeaderElements;
+          }
+          a {
+            font-family: "Dancing Script";
+            font-size: 20px;
+            width: 100%;
+            display: block;
+            color: @colorHeaderElements;
+          }
+        }
+      }
+    }
+  }
+  .nav-menu-mobile {
+    &:extend(.menuElementsParametrs);
+    span {
+      height: 1px;
+      width: 100%;
+      background: @colorHeaderElements;
+      display: block;
+      &:nth-child(2) {
+        margin: 11px 0;
+      }
+    }
+  }
+  .box-basket {
+    button {
+      &:extend(.buttonHeader);
+      &:extend(.menuElementsParametrs);
+      background-image: url("icon/basket.png");
+      background-color: transparent;
+    }
+  }
+}
+
+.logo {
+  font-family: Mr De Haviland;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 5px;
+}
+/*tablet*/
+@media (min-width: 768px) {
+}
+/*laptop*/
+@media (min-width: 992px) {
+}
+/*only mobile*/
+@media (max-width: 767px) {
+}
