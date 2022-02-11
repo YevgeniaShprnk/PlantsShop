@@ -80,15 +80,11 @@
     }
   }
   .nav-menu-mobile {
-    &:extend(.menuElementsParametrs);
-    span {
-      height: 1px;
-      width: 100%;
-      background: @colorHeaderElements;
-      display: block;
-      &:nth-child(2) {
-        margin: 11px 0;
-      }
+    button {
+      &:extend(.menuElementsParametrs);
+      background-image: url("icon/navigation.png");
+      background-color: transparent;
+      background-size: 100%;
     }
   }
   .box-basket {
@@ -106,6 +102,7 @@
   font-size: 30px;
   letter-spacing: 3px;
   margin: 5px;
+  font-weight: 700;
 }
 /*tablet*/
 @media (min-width: 768px) {
