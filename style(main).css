@@ -71,7 +71,7 @@ h2 {
   position: relative;
 }
 .cart a:hover {
-  padding: 5px;
+  transform: scale(1.03) translateZ(0);
 }
 .cart a .proposal-img {
   width: 200px;
@@ -127,6 +127,9 @@ h2 {
   color: black;
   font-family: "Open Sans Condensed";
 }
+.shop-block .filter-ways .filter-way a {
+  color: black;
+}
 .shop-block .row {
   flex-wrap: wrap;
   flex-direction: row;
@@ -148,6 +151,29 @@ h2 {
   font-size: 15px;
 }
 .product-img {
+  width: 100%;
+}
+.delivery-block .cart {
+  align-items: flex-start;
+}
+.delivery-block .cart a {
+  display: flex;
+  flex-direction: row;
+  color: #287460;
+}
+.carrousel-box {
+  display: flex;
+}
+.carrousel-box a {
+  max-width: 50%;
+}
+.carrousel-box a:hover img {
+  transform: scale(1.03) translateZ(0);
+}
+.carrousel-box a:hover {
+  transition: black 0.2s ease-out;
+}
+.carrousel-box a img {
   width: 100%;
 }
 /*laptop*/
