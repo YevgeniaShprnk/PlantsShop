@@ -66,11 +66,11 @@
 }
 .header-pages .navigation .nav-menu .menu {
   position: absolute;
-  left: -36px;
+  left: -500%;
   top: -20px;
 }
 .header-pages .navigation .nav-menu .menu li {
-  width: 100px;
+  width: 100%;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -80,7 +80,8 @@
 }
 .header-pages .navigation .nav-menu .menu li a {
   font-family: "Dancing Script";
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 35px;
   width: 100%;
   display: block;
   color: black;

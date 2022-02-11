@@ -76,7 +76,8 @@ h2 {
 .cart a .proposal-img {
   width: 200px;
 }
-.cart .title {
+.cart .title,
+.container-feedback .subscription-description {
   font-size: 20px;
   font-family: "Playfair Display";
   text-transform: uppercase;
@@ -175,6 +176,29 @@ h2 {
 }
 .carrousel-box a img {
   width: 100%;
+}
+.container-feedback {
+  background-color: #fff0e9;
+}
+.container-feedback .nav-logo {
+  text-align: center;
+}
+.container-feedback .subscription-box {
+  margin: 15px;
+}
+.container-feedback .subscription-box .subscription-send {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-feedback .subscription-box .subscription-send input {
+  width: 80%;
+}
+.container-feedback .subscription-box .subscription-send button {
+  width: 40%;
+  color: white;
+  background-color: black;
+  padding: 15px 0;
 }
 /*laptop*/
 /*only mobile*/

@@ -1,2 +1,52 @@
+.novisibility {
+  visibility: hidden;
+  height: 0;
+}
+.menuElementsParametrs {
+  height: 30px;
+  width: 30px;
+}
+.buttonHeader {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h3 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: white;
+}
+.container-desc {
+  background-color: #1b1b1b;
+}
+.container-desc .col-xs-6 {
+  margin: 0;
+}
+.container-desc .menu-footer {
+  margin: 15px;
+}
+.container-desc .menu-footer a {
+  color: #8f8d8d;
+  font-family: "Open Sans Condensed";
+  font-size: 15px;
+  line-height: 25px;
+}
+.container-desc .menu-footer-folllow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-desc .menu-footer-folllow li {
+  width: 50%;
+}
+.container-desc .menu-footer-folllow li a:hover img {
+  transform: scale(1.03) translateZ(0);
+}
+.container-desc .menu-footer-folllow li a:hover {
+  transition: black 0.2s ease-out;
+}
+.container-desc .menu-footer-folllow li img {
+  max-width: 100%;
+}
 /*laptop*/
 /*only mobile*/

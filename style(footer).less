@@ -1,3 +1,44 @@
+@import "style_maps";
+@import "style_mixins";
+@import "style_variables";
+h3 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: white;
+}
+.container-desc {
+  background-color: #1b1b1b;
+  .col-xs-6 {
+    margin: 0;
+  }
+  .menu-footer {
+    margin: 15px;
+    a {
+      color: rgb(143, 141, 141);
+      font-family: "Open Sans Condensed";
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+  .menu-footer-folllow {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 50%;
+      a:hover img {
+        transform: scale(1.03) translateZ(0);
+      }
+      a:hover {
+        transition: black 0.2s ease-out;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
 @media (min-width: 768px) {
 }
 /*laptop*/

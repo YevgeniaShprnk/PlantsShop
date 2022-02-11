@@ -175,6 +175,33 @@ h2 {
     }
   }
 }
+.container-feedback {
+  background-color: #fff0e9;
+  .subscription-description {
+    &:extend(.cart .title);
+  }
+  .nav-logo {
+    text-align: center;
+  }
+  .subscription-box {
+    margin: 15px;
+    .subscription-send {
+      max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      input {
+        width: 80%;
+      }
+      button {
+        width: 40%;
+        color: white;
+        background-color: black;
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
 }
 /*laptop*/
