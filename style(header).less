@@ -1,9 +1,6 @@
-@import "style_maps";
-@import "style_mixins";
 @import "style_variables";
 .header-pages {
   .container {
-    position: absolute;
     background-color: rgba(255, 255, 255, 0.575);
   }
   .box-search {
@@ -106,6 +103,13 @@
 }
 /*tablet*/
 @media (min-width: 768px) {
+  .box-navigation {
+    text-align: center;
+  }
+  .header-pages .navigation nav.nav-menu ul.menu {
+    left: -50%;
+    top: 0;
+  }
 }
 /*laptop*/
 @media (min-width: 992px) {
