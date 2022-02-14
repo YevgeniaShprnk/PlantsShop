@@ -6,6 +6,10 @@
   visibility: hidden;
   height: 0;
 }
+.visibility {
+  visibility: visible;
+  height: auto;
+}
 .menuElementsParametrs,
 .header-pages .box-search .search-icon,
 .header-pages .nav-menu-mobile button,
@@ -117,4 +121,26 @@
   }
 }
 /*laptop*/
+@media (min-width: 992px) {
+  .header-pages .nav-menu-mobile {
+    display: none;
+  }
+  .header-pages .nav-menu-mobile button.menu-mobile-icon {
+    visibility: hidden;
+    height: 0;
+  }
+  .header-pages .navigation:hover {
+    height: auto;
+  }
+  .header-pages .navigation .nav-menu .menu {
+    visibility: visible;
+    height: auto;
+    position: unset;
+    display: flex;
+  }
+  .header-pages .navigation .nav-menu .menu li {
+    width: auto;
+    padding: 10px;
+  }
+}
 /*only mobile*/

@@ -2,6 +2,10 @@
   visibility: hidden;
   height: 0;
 }
+.visibility {
+  visibility: visible;
+  height: auto;
+}
 .menuElementsParametrs {
   height: 30px;
   width: 30px;

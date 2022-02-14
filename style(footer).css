@@ -2,6 +2,10 @@
   visibility: hidden;
   height: 0;
 }
+.visibility {
+  visibility: visible;
+  height: auto;
+}
 .menuElementsParametrs {
   height: 30px;
   width: 30px;
@@ -60,6 +64,12 @@ h3 {
   }
   .container-desc .row {
     width: 100%;
+  }
+  footer .nav-logo {
+    margin: 15px;
+  }
+  .container-feedback .subscription-box :nth-child(n) {
+    margin: 15px 0;
   }
 }
 /*laptop*/

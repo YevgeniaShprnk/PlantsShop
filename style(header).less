@@ -113,6 +113,28 @@
 }
 /*laptop*/
 @media (min-width: 992px) {
+  .header-pages .nav-menu-mobile {
+    display: none;
+    button.menu-mobile-icon {
+      visibility: hidden;
+      height: 0;
+    }
+  }
+  .header-pages .navigation {
+    &:hover {
+      height: auto;
+    }
+    .nav-menu .menu {
+      visibility: visible;
+      height: auto;
+      position: unset;
+      display: flex;
+      li {
+        width: auto;
+        padding: 10px;
+      }
+    }
+  }
 }
 /*only mobile*/
 @media (max-width: 767px) {
