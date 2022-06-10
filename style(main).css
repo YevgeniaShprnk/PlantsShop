@@ -21,9 +21,12 @@
   flex-direction: column;
   align-items: center;
 }
+main > div {
+  padding: 50px 0;
+}
 .initial-block {
   background-image: url(image/sliderBackground.jpg);
-  background-size: 150% 100%;
+  background-position: center center;
 }
 .initial-block .initial-block-welcome > :nth-child(n) {
   margin: 10px;
@@ -207,10 +210,5 @@ h2 {
   padding: 15px 0;
 }
 /*tablrt*/
-@media (min-width: 768px) {
-  .initial-block {
-    background-size: 100% 100%;
-  }
-}
 /*laptop*/
 /*only mobile*/

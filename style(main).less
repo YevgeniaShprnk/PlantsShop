@@ -1,7 +1,10 @@
 @import "style_variables";
+main > div {
+  padding: 50px 0;
+}
 .initial-block {
   background-image: url(image/sliderBackground.jpg);
-  background-size: 150% 100%;
+  background-position: center center;
   .initial-block-welcome > :nth-child(n) {
     margin: 10px;
     text-align: center;
@@ -198,9 +201,6 @@ h2 {
 }
 /*tablrt*/
 @media (min-width: 768px) {
-  .initial-block {
-    background-size: 100% 100%;
-  }
 }
 /*laptop*/
 @media (min-width: 992px) {
